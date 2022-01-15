@@ -12,7 +12,7 @@ Extended LBP also known as Circular LBP. The original LBP procedure was expanded
 Once the values are obtained, the circle is converted to binary either clockwise or anti-clockwise(must be same throughout) and centre pixel value of LBP image is found.
 The efficiency corresponding to different parameters in our project is shown in results.
 
-Histogram of Oriented Gradients
+# Histogram of Oriented Gradients
 Through the conversion of an image to its LBP form, facial features are extracted in a way that computers can differentiate better. But to compare two LBP images is equivalent to comparing two normal images in terms of computational complexity and time taken. Hence it is combined with a concept known as Histogram of Oriented Gradients which is known not only to make comparison easier but also improve face discriminating power.
 he histogram is most commonly used to show frequency distributions. In this concept, each histogram consists of 256 bars, each for one pixel intensity since grayscale images have pixel intensities between 0 and 255. Each bar shows the frequency of that pixel intensity in the picture.
 
